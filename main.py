@@ -3,26 +3,35 @@ from replit import db
 from random import randint
 import time
 # funcs
+def fight(hp, dmg, pmh):
+  print("fight")
+  playerAtk = input(f"{pmh}")
 def game():
   playerMaxHealth = 0
   
   
+  
+  print('1. warrior ') #100hp  
+  print("2. archer ")  #80hp   
+  print("3. mage ") #60hp   
+  print("4. summoner ") #40hp 
+  print("5. tanker ") #300hp
   playerClass = input('What class you wanna be Select the number')
-  print('1. warrior ') #100hp  25dmg better with a sword fast
-  print("2. archer ")  #80hp   12dmg better with a bow very very fast
-  print("3. mage ") #60hp   35dmg has a cool spells very fast
-  print("4. summoner ") #40hp summoners dose 25 dmg every fast
-  print("5. tanker ") #300hp   50dmg rylly slow
   if playerClass == 1:
-    playerMaxHealth = 150
+    print ("now you have 150hp")
   elif playerClass == 2:
-    playerMaxHealth = 80
+    print("now you have 90hp")
+    playerMaxHealth = 90
   elif playerClass == 3:
-    playerMaxHealth = 60
+    print("now you have 90hp")
+    playerMaxHealth = 90
   elif playerClass == 4:
-    playerMaxHealth = 40
+    print("now you have 80hp")
+    playerMaxHealth = 80
   elif playerClass == 5:
+    print("now you have 150hp")
     playerMaxHealth = 250
+
 #intro
 print("Welcome to TBRPG\nGAME SUBJECT IS TO CHANGE")
 print()
