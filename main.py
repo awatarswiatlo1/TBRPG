@@ -5,7 +5,6 @@ import time
 # funcs
 def game():
   playerMaxHealth = 0
-  playerinventory = []
   
   
   playerClass = input('What class you wanna be Select the number')
