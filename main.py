@@ -8,16 +8,21 @@ def game():
   
   
   playerClass = input('What class you wanna be Select the number')
-  print('1. warrior ')
-  print("2. archer ")
-  print("3. mage ")
-  print("4. summoner ")
-  print("5. ")
+  print('1. warrior ') #100hp  25dmg better with a sword fast
+  print("2. archer ")  #80hp   12dmg better with a bow very very fast
+  print("3. mage ") #60hp   35dmg has a cool spells very fast
+  print("4. summoner ") #40hp summoners dose 25 dmg every fast
+  print("5. tanker ") #300hp   50dmg rylly slow
   if playerClass == 1:
     playerMaxHealth = 150
   elif playerClass == 2:
-    print("wip")
-    
+    playerMaxHealth = 80
+  elif playerClass == 3:
+    playerMaxHealth = 60
+  elif playerClass == 4:
+    playerMaxHealth = 40
+  elif playerClass == 5:
+    playerMaxHealth = 250
 #intro
 print("Welcome to TBRPG\nGAME SUBJECT IS TO CHANGE")
 print()
