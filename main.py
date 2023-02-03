@@ -2,15 +2,14 @@
 from replit import db
 from random import randint
 import time
+#Variables
+playerMaxHealth = 0
+
 # funcs
-def fight(hp, dmg, pmh):
+def fight(hp, dmg,):
   print("fight")
-  playerAtk = input(f"{pmh}")
+  playerAtk = input(f"{playerMaxHealth}")
 def game():
-  playerMaxHealth = 0
-  
-  
-  
   print('1. warrior ') #100hp  
   print("2. archer ")  #80hp   
   print("3. mage ") #60hp   
